@@ -13,6 +13,76 @@ Download NYC 311 data from NYC Open Data.
 
 ### 2.
 
+# project4501
+
+
+
+
+## Functions:
+
+### 2. 'load_and_clean_zipcodes(zipcode_datafile:str) -> GeoDataFrame'
+
+Load zipcode data from a csv file and clean it, and then return a GeoDataFrame.
+
+### 3. 'clean_311_data_2015_2017() -> DataFrame'
+
+Clean NYC 311 data with data between 2015 and 2017, and return a DataFrame.
+
+### 4. 'clean_311_data_2018_2020() -> DataFrame'
+
+Clean NYC 311 data with data between 2018 and 2020, and then return a DataFrame.
+
+### 5. 'clean_311_data_2021_2023() -> DataFrame'
+
+Clean NYC 311 data with data between 2021 and 2023, and then return a DataFrame.
+
+### 6. 'download_nyc_tree_data() -> None'
+
+Download 2015 NYC Tree data from NYC Open Data.
+
+### 7. 'clean_tree_data() -> DataFrame'
+
+Clean 2015 NYC Tree data and then return a DataFrame.
+
+### 8. 'load_and_clean_zillow_data() -> DataFrame'
+
+Load zillow data from a csv file and clean it, and then return a DataFrame.
+
+### 9. 'write_query_to_file(query: str, outfile: str) -> None'
+
+Define a function to write the query into a file.
+
+### 10. 'get_data_for_visual(query: str) -> pd.DataFrame'
+
+Execute an SQL query and return the result as a pandas DataFrame.
+
+### 11. 'plot_visual_1(query: str) -> None'
+
+Plot a time series for different complaint types based on an SQL query.
+
+### 12. 'plot_visual_1_ani(query: str) -> HTML'
+
+Plot an animation for top 3 complaint types in NYC.
+
+### 13. 'plot_visual_2(query: str) -> None'
+
+Plot a bar chart for the top 10 complaint types.
+
+### 14. 'plot_visual_3(query1: str, query2: str, query3: str) -> None'
+
+Plot scatter plots comparing rent with number of trees and number of complaints.
+
+### 15. 'plot_visual_4(query1: str, query2: str) -> None'
+
+Plot a boxplot comparing the number of 311 complaints with different average rent bins.
+
+### 16. 'plot_visual_5(query: str) -> None'
+
+Plot a map with points representing reported 311 incidents and a center point.
+
+### 17. 'plot_visual_6(query1: str, query2: str) -> None'
+
+Plot a map showing existing trees and new tree requests.
 
 
 ## Query: 
